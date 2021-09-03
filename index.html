@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño Desde el Código 2021</title>
     <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="topnav">
@@ -59,5 +62,52 @@
 <p>Concepto de herencia: una propiedad puede heredarse desde sus elementos "madre"<br>
 Por ejemplo el color siempre se hereda a menos de que se defina posteriormente</p>
 <p>Realizar ejercicios de git</p>
+
+<h2>Cuarta Clase</h2>
+<p>Variables css: permite poder guardar un valor y reutilizarlo, tambien se pueden sobre escribir estas variables en un contexto más específico.<br>
+Se escriben utilizando dos guiones</p>
+<p>font-face con google fonts<br>
+    se puede hacer a traves de link y a través de import, la más recomendada es link<br>
+    Se deben tener en cuenta todos los pesos que se utilizarán, para cargarlos desde el navegador<br>
+    Para utilizar una fuente descargada de algún sitio, posterior a asegurarse que se cumpla con las licencias de uso, se descarga el archivo de la tipografía, luego se construye una relación font-face parecida ala que construye google fonts, debe estar en formato otf o ttf. Este archivo debe estar alojado en la carpeta del index.html, dentro de una propia carpeta de fuentes, y llamar la tipografia con font-face pero desde la carpeta.
+</p>
+<p>
+    Se recomienda que las declaraciones de fuente esten siempre al principio del codigo css, se debe respetar el nombre de cada tipografia. Si se ocupa una tipografía estática se debe respetar cada uno de los nombres de las variantes.<br>
+    Se deben declarar tambien los pesos de la tipografía, el display y el estilo.
+</p>
+<p>
+    Se pueden definir las tipografías como variables, para así realizar combinaciones tipográficas.<br>
+    El uso de variables permite ordenar el uso de los distintos contenidos a utilizar, ya sea fuentes, colores, etc...<br>
+</p>
+<p>
+    Wakamaifondue.com es una herramienta que permite analizar todas las características que tiene un archivo de fuente, tamaños, pesos, idiomas, etc...
+</p>
+<p>
+    Los tamaños tipograficos pueden estar en pixeles, porcentaje, em o rem, estos ultimos son recomendados porque son a razon de la tipografía.<br>
+    Con @media screen, se puede definir el tamaño maximo de una tipografía para tamaño móvil.<br>
+
+</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, veritatis eaque vel odio sed fugit iste recusandae sunt deserunt ipsum voluptate delectus facilis aliquam enim earum necessitatibus. Libero deleniti impedit temporibus laboriosam soluta, possimus sit ad assumenda esse repellat aliquam pariatur voluptatibus sed porro est exercitationem perferendis eligendi aspernatur quisquam provident. Adipisci, labore aliquam consequuntur natus nisi voluptates rem voluptatem quod, hic tenetur quia consequatur, recusandae ex voluptas accusantium? Maxime praesentium reprehenderit eos hic incidunt autem exercitationem sit odit, alias in cupiditate expedita, aliquam, facere doloribus repudiandae iusto illo reiciendis. Quibusdam mollitia ea ab adipisci illo blanditiis voluptas voluptatum temporibus?</p>
+<p>
+    Se puede utilizar el golden ratio, o escala modular para los tamaños entre elementos.<br>
+    Con text transform se puede transformar un texto a mayusculas, minusculas o tomar la primera letra de cada palabra.<br>
+    La herramienta text-align sirve para alinear los textos a derecha, izquierda, centro o justificado.
+</p>
+<p>
+    Los colores en css pueden definirse por nombre, valor hex, valor rgb, valor hsl o hsla, y con transparent/currentColor.<br>
+
+</p>
+
+<input type="text">
+<button>send</button>
+
+<p>Modelo de caja: una página puede fluir vertical u horizontalmente, con la propiedad de display (inline, block e inline-block).<br>
+    Luego de display, se le puede agregar un padding a esta caja.
+    El padding permite hacer crecer las cosas, en cambio el margen delimita las cosas, aunque se vean parecidos en pantalla.<br>
+    box-sizing es una propiedad que nos permite especificar la forma en que se calcula el contenido de un elemento.<br>
+    
+</p>
+
 </body>
 </html>

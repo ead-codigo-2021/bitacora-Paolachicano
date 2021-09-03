@@ -25,22 +25,42 @@
 
 h1 {
     color: rgb(123, 45, 197);
+    font-size: 2em;
+    /*letter-spacing: 4px;*/
 }
 
 h2 {
     color: rgb(255, 44, 202);
+    font-size: 1.5em;
     padding: 1rem;
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Roboto, Verdana, Arial, Sans Serif ;
     background-color: rgb(80, 27, 129);
     color: #FFF;
     font-size: 20px;
     margin-left: 2em;
     margin-right: 2em;
+    line-height: 1.5;
+}
+
+
+
+:root {
+  --primary-color: yellow;
 }
 
 footer h1 {
-    color: yellow;
+    color: var(--primary-color);
+}
+
+button {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  font-size: 2rem;
+}
+
+input {
+  text-overflow: ellipsis;
 }
