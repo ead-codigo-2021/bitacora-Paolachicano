@@ -40,8 +40,6 @@ body {
     background-color: rgb(80, 27, 129);
     color: #FFF;
     font-size: 20px;
-    margin-left: 2em;
-    margin-right: 2em;
     line-height: 1.5;
 }
 
@@ -63,4 +61,46 @@ button {
 
 input {
   text-overflow: ellipsis;
+}
+
+.clases {
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr .5fr;
+  grid-gap: 10px;
+  grid-auto-rows: auto repeat;
+}
+
+.clase3 {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.clase4 {
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
+
+.clase5 {
+  grid-column: 2 / 4;
+  grid-row: 3;
+}
+
+.clase6 {
+  grid-column: 2 / 4;
+  grid-row: 4;
+}
+
+.clase7 {
+  grid-column: 2 / 4;
+  grid-row: 5;
+}
+
+.clase8 {
+  grid-column: 2 / 4;
+  grid-row: 6;
+}
+
+.clase9 {
+  grid-column: 2 / 4;
+  grid-row: 7;
 }
