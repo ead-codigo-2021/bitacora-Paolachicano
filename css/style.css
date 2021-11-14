@@ -111,6 +111,10 @@ input {
   grid-row: 8;
 }
 
+.clase11 {
+  grid-column: 2 / 4;
+  grid-row: 9;
+}
 
 
 /*clases*/
@@ -194,4 +198,10 @@ input {
   grid-column: 2;
 }
 
+}
+
+
+.textosobremi {
+  grid-row: 1;
+  grid-column: 2 / 5;
 }
